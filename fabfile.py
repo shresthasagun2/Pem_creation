@@ -68,6 +68,7 @@ def create():
     print "\n------------- Thank you  -------------\n" 
     
 
+# How to use this file ?
 #fab --port 2014 -H root@dev.lftechnology.com create
 
 
