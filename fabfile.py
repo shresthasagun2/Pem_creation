@@ -5,7 +5,7 @@ from fabric.api import *
 
 # Editable Config
 local_user = "sagun" # local user of the workstation from which this fabfile is run
-ssh_user = "abhinavmishra" # username used to ssh to the remote machine
+ssh_user = "ubuntu" # username used to ssh to the remote machine
 key_dir = "/home/sagun/Keys/project_name" # the location where the keys are to be copied in the local workstation
 
 #These section are the config of boto (default value will work fine so doesn't need to edited)
