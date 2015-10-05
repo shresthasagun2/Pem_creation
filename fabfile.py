@@ -66,3 +66,10 @@ def create():
         print "\n\n------------- Key files downloaded to %s   -------------\n" %key_dir
         choice = prompt("Do you want to create another user (Y/N):")
     print "\n------------- Thank you  -------------\n" 
+    
+
+#fab --port 2014 -H root@dev.lftechnology.com create
+
+
+#Note : the file should be named fabfile.py. It should not be changed. Then root@dev.lftechnology.com is the server, where you want to create the user and pem file.
+
